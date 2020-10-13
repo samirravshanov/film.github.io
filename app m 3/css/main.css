@@ -1,0 +1,231 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+img {
+ 	display: block;
+ 	min-width:55%;
+ 	width: 55%;
+	height: 55%;
+ }
+
+@font-face {
+	font-family: Roboto;
+	src: url(../fonts/Roboto-Regular.ttf);
+} 
+
+html, body, main {
+	height: 100%;
+	font-family: Roboto;
+}
+
+ul,li{
+	list-style: none;
+	margin: 0 ;
+	padding: 0 ;
+}
+.container{
+	height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.header--top{
+background-color: #687E82;
+}
+.header--btn{
+	float: right;
+	line-height: 30px;
+	color: #1b1b1b;
+	background-color: #ffc222;
+	padding: 5px 20px 10px  50px;
+	margin: 0 200px 0 0;
+	font-size: 16px;
+
+}
+.header--btn:after{
+	content: "";
+	clear:  both;
+	display: block;
+}
+.header--phone, 
+.header--email
+{
+	color: #cbcacb;
+	font-size: 14px;
+	letter-spacing: 0.25px;
+	line-height: 45px;
+
+}
+.header--phone {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.header--email{
+	padding-left: 24px;
+}
+.header--logo {
+	height: 50px;
+	width: 50px;
+}
+.header--content {
+	padding: 34px 0px 23px;
+}
+.header--content-inner {
+	display: flex;
+	justify-content: space-between;
+}
+.menu {
+	margin: 0 200px 0 0;
+}
+.menu li {
+ display: inline-block;  /* рамка надписи */
+}
+.menu a{
+	color: #323232;
+	font-size: 16px;
+	line-height: 36px;
+	border: 2px solid transparent;
+	padding: 0px 16px;
+	transition: all .3s;
+}
+.menu a:hover{
+	border-color: #ffc222;
+}
+.menu li + li{
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.first {
+	height: 100%;
+	background-image: url(../img/img1.jpg);
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+/* на этом 2 урок закончен */
+
+
+/* Устанавливаем для всех параграфов первого экрана белый цвет текста.
+
+*/
+.first p {
+	color: white;
+}
+
+.tourism {
+	width: 100%;
+    text-align:  center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.text-container {
+	width: 40%;
+	margin-left: 15%;
+	margin-top:  15%;
+}
+
+.first-line {
+	text-transform:uppercase;
+	 /•text-transform: uppercase — переводит все символы в верхний регистр/
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;  
+	/•	opacity — коэффициент прозрачности элемента, изменяется от 0 до 1/
+	line-height: 1;
+    background-: #F6404F;
+
+
+}
+.second-line {
+	text-transform: uppercase;  
+	/(uppercase)верхний регистр/
+	font-size: 64px;
+	line-height: 1;  
+	 /*•	line-height — устанавливает фактическую высоту строки текста,
+	     font-size * line-height = высота строки;*/
+
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.third-line {
+	font-size: 20px;
+}
+ .second {
+ 	height: 100%;
+  	display: flex;
+ 	justify-content: center;
+ 	-ms-align-items: center;
+    align-items: center;
+    /background-image: url(../img/Travel-To-Kyrgyzstan-Guide.jpg" alt="" class="second-img);/
+ }
+ /*.second-img {
+ 	height: 100%;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width:  1000px;
+ }*/
+
+ .gallery-container {
+ 	width: 60%;
+ 	 max-width: 1000px;
+ }
+ .img-container {
+ 	width: 100%;
+ 	display: flex;
+ 	-ms-align-items: flex-start;
+    align-items: flex-start;
+ }
+ img {
+ 	display: block;
+ 	min-width:55%;
+ 	width: 55%;
+	height: 55%;
+ }
+ .img1
+ {
+ 	width: 20%;
+ }
+ .wrapper{
+ 	margin-left: 20px;
+
+ }
+ .img2 {
+ 	margin-bottom: 20px;
+ }
+
+ .gallery-text {
+ 	display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .gallery-header{
+ 	font-size:  48px;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	line-height: 1px;
+ }
+ .gallery-p {
+ 	 	font-size:  18px;
+ 
+ }
+ .ins
+{
+	float: right;
+
+} 
